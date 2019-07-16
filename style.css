@@ -1,0 +1,143 @@
+* {
+  width: 480px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.divA {
+  background-color: red;
+  height: 75px;
+  width: 480px;
+  line-height: 75px;
+}
+
+.divB {
+  background-color: orange;
+  height: 150px;
+  width: 480px;
+  line-height: 150px;
+}
+.divC {
+  background-color: yellow;
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+}
+.divD {
+  background-color: greenyellow;
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+}
+
+.divE {
+  background-color: lightblue;
+  height: 250px;
+  width: 240px;
+  float: left;
+  line-height: 250px;
+}
+.divF {
+  background-color: blue;
+  height: 250px;
+  width: 240px;
+  float: left;
+  line-height: 250px;
+}
+
+.divG {
+  background-color: magenta;
+  height: 250px;
+  width: 240px;
+  float: left;
+  line-height: 250px;
+}
+.divH {
+  background-color: pink;
+  height: 250px;
+  width: 240px;
+  float: left;
+  line-height: 250px;
+}
+.divI {
+  background-color: black;
+  height: 80px;
+  width: 480px;
+  float: left;
+  line-height: 80px;
+  color: white;
+}
+
+@media screen and (min-width:960px) {
+  
+  * {
+    width: 960px;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .divA {
+    background-color: black;
+    height: 100px;
+    width: 960px;
+    line-height: 100px;
+    color: white;
+  }
+  
+  .divB {
+    background-color: pink;
+    height: 600px;
+    width: 200px;
+    float: left;
+    line-height: 600px;
+  }
+  .divC {
+    background-color: magenta;
+    height: 200px;
+    width: 380px;
+    float: left;
+    line-height: 200px;
+  }
+  .divD {
+    background-color: blue;
+    height: 200px;
+    width: 380px;
+    float: left;
+    line-height: 200px;
+  }
+  .divE {
+    background-color: lightblue;
+    height: 250px;
+    width: 190px;
+    float: left;
+    line-height: 190px;
+  }
+  .divF {
+    background-color: greenyellow;
+    height: 250px;
+    width: 190px;
+    float: left;
+    line-height: 250px;
+  }
+  .divG {
+    background-color: yellow;
+    height: 250px;
+    width: 190px;
+    float: left;
+    line-height: 250px;
+  }
+  .divH {
+    background-color: orange;
+    height: 250px;
+    width: 190px;
+    float: left;
+    line-height: 250px;
+  }
+  .divI {
+    background-color: red;
+    height: 150px;
+    width: 760px;
+    float: left;
+    line-height: 150px;
+  }
+}
